@@ -1,0 +1,152 @@
+.teamDetailsPage {
+  margin-top: 85px;
+  padding: 5%;
+}
+
+.detailsHeading {
+  color: white;
+  font-weight: 600;
+  font-family: "Bebas Neue", cursive;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+
+.playerCardsWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.availableTeamsText {
+  color: white;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.playerCards {
+  width: 100%;
+  box-shadow: 2px 2px 12px var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  background-color: white;
+}
+
+.playerCardsIN:hover {
+  transform: translateY(-5px);
+}
+
+.playerCardsIN {
+  width: 100%;
+  box-shadow: 2px 2px 12px var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.playerLeftDiv {
+  width: 37%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.playerLeftDiv img {
+  width: 100%;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.playerRightDiv {
+  width: 100%;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.playerRightDiv h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.playerRightDiv h3 {
+  font-size: 14px;
+}
+
+.playerRightDiv span {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.playerRightDivIN {
+  width: 65%;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.playerRightDivIN h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.playerRightDivIN h3 {
+  font-size: 14px;
+}
+
+.playerRightDivIN span {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.teamLeftDiv {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.teamLeftDiv img {
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .playerCards {
+    width: 42%;
+    margin: 15px;
+  }
+  .playerCardsIN {
+    width: 42%;
+    margin: 15px;
+  }
+}
+@media (min-width: 770px) {
+  .teamDetailsPage {
+    margin-top: 30px;
+    padding: 5%;
+  }
+  .playerCards {
+    width: 27%;
+    margin: 15px;
+  }
+  .playerCardsIN {
+    width: 27%;
+    margin: 15px;
+  }
+}

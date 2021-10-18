@@ -1,0 +1,75 @@
+.playerDetailsWrapper {
+  margin-top: 85px;
+  padding: 5%;
+  text-align: center;
+}
+
+.headingText {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+.playerCard {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 12px rgb(78, 78, 78);
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.playerLeftDiv {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playerLeftDiv img {
+  width: 100%;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.playerRightDiv {
+  width: 100%;
+  text-align: left;
+}
+
+.playerRightDiv h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 38px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.playerRightDiv h3 {
+  font-size: 22px;
+}
+
+.playerRightDiv span {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(48, 47, 47);
+}
+
+@media (min-width: 480px) {
+  .playerCard {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 770px) {
+  .playerDetailsWrapper {
+    margin-top: 30px;
+  }
+  .playerCard {
+    width: 35%;
+    margin: 0 auto;
+  }
+}
